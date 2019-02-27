@@ -10,7 +10,8 @@ This tool has great benefits:
 
 - Ability to hoist common dependencies in 'master' lerna repo, this reduces complexity and build time.
 
-- Run an npm command in a bulk [lenra run](https://github.com/lerna/lerna/tree/master/commands/run#readme) on all subrepos or a filtered list (--scope flag) , can be parallelized (--parallel flag). See also [lerna exec](https://github.com/lerna/lerna/tree/master/commands/exec#readme)
+- Run an npm command in a bulk [lenra run](https://github.com/lerna/lerna/tree/master/commands/run#readme) on all subrepos or a filtered list (--scope flag) , can be parallelized (--parallel flag). See also [lerna exec](https://github.com/lerna/lerna/tree/master/commands/exec#readme). 
+>This is great when dealing with microservices when needing to bring them all up or when needing to run tests for all of them.
 
 - [lerna import](https://github.com/lerna/lerna/tree/master/commands/import#readme) enables the import of an external git repository into the monorepo packages.
 
