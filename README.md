@@ -42,7 +42,7 @@ $ npx lerna init --independent
 
 > It's preferrable to run commands from project root (where lerna.json resides)
 
-- `npx lerna bootstrap` : The first command to launch. Must be ran when a subrepo is added/removed or after a fresh git clone. it links subrepos and does some magic..
+- `npx lerna bootstrap` : The first command to launch. Must be ran when a subrepo is added/removed or after a fresh git clone. it links subrepos, installs npm deps and does some magic..
 
 - `npx lerna publish` : publish to npm. Each time you publish, you will get a prompt for each package that has changed to specify if it's a patch, minor, major or custom change.
 
