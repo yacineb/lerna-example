@@ -1,0 +1,16 @@
+{
+  "name": "project-c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "project-a": "^1.0.0",
+    "project-b": "^1.0.0"
+  }
+}
