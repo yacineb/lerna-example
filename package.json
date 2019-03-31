@@ -4,7 +4,7 @@
   "description": "Illustrating the monorepo concept using lerna",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "lerna bootstrap -- --production --no-optional"
   },
   "repository": {
     "type": "git",
