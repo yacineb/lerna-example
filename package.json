@@ -4,7 +4,8 @@
   "description": "Illustrating the monorepo concept using lerna",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap -- --production --no-optional"
+    "bootstrap": "lerna bootstrap -- --production --no-optional",
+    "publish": "lerna publish"
   },
   "repository": {
     "type": "git",
