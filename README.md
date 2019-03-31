@@ -2,7 +2,7 @@
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
-Illustrating the monorepo concept using [lerna](https://github.com/lerna/lerna). 
+Illustrating the monorepo concept using [lerna](https://github.com/lerna/lerna).
 
 This tool has great benefits:
 
@@ -10,17 +10,17 @@ This tool has great benefits:
 
 - Ability to hoist common dependencies in 'master' lerna repo, this reduces complexity and build time.
 
-- Run an npm command in a bulk [lenra run](https://github.com/lerna/lerna/tree/master/commands/run#readme) on all subrepos or a filtered list (--scope flag) , can be parallelized (--parallel flag). See also [lerna exec](https://github.com/lerna/lerna/tree/master/commands/exec#readme). 
->This is great when dealing with microservices when needing to bring them all up or when needing to run tests for all of them.
+- Run an npm command in a bulk [lenra run](https://github.com/lerna/lerna/tree/master/commands/run#readme) on all subrepos or a filtered list (--scope flag) , can be parallelized (--parallel flag). See also [lerna exec](https://github.com/lerna/lerna/tree/master/commands/exec#readme).
+
+  > This is great when dealing with microservices when needing to bring them all up or when needing to run tests for all of them.
 
 - [lerna import](https://github.com/lerna/lerna/tree/master/commands/import#readme) enables the import of an external git repository into the monorepo packages.
 
-- Sophisticated npm package publishing based on many CI/CD scenarios  using `lerna publish` and `lerna version` commands.
-
+- Sophisticated npm package publishing based on many CI/CD scenarios using `lerna publish` and `lerna version` commands.
 
 ## setup of a lerna monorepo from scratch
 
-``` console
+```console
 $ #first you have to install npx command runner gloablly (may need root user)
 $ npm install -g npx
 
@@ -59,6 +59,13 @@ $ npx lerna init --independent
 The dependency schema in this sample monorepo is the following:
 
 project-c -> | project-a
-             | project-b -> project-a
-            
- 
+| project-b -> project-a
+
+## Lerna with docker
+
+**base build image**
+docker build . -f Dockerfilebase -t dependencies
+
+then build service image:
+
+docker build . -t project-c

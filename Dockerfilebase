@@ -1,0 +1,13 @@
+FROM node:10-alpine
+
+WORKDIR /dists
+
+COPY . .
+
+RUN npm i && npm run bootstrap:docker && \
+    cp -RL /dists/packages/project-c/node_modules /dists/packages/project-c/node_modules_prod && \
+    rm -rf /dists/packages/project-c/node_modules && \
+    mv /dists/packages/project-c/node_modules_prod  /dists/packages/project-c/node_modules
+
+
+# resolve all symlinks

@@ -2,11 +2,7 @@ FROM node:10-alpine
 
 WORKDIR /app
 
-COPY . .
-
-RUN npm i && npm run bootstrap
-
-RUN ls /app/packages
+COPY --from=dependencies /dists/packages/project-c/ .
 
 
-ENTRYPOINT [ "node","/app/packages/project-c/index.js" ]
+ENTRYPOINT [ "node","/app/index.js" ]
