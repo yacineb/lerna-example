@@ -27,5 +27,5 @@ jobs:
         run: yarn --frozen-lockfile
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx lerna version --yes --conventional-commits --create-release github
