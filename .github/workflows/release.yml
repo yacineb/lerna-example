@@ -14,10 +14,10 @@ jobs:
           fetch-depth: 0
 
       - name: Configure git credentials
-        uses: OleksiyRudenko/gha-git-credentials@v1
+        uses: OleksiyRudenko/gha-git-credentials@v2.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
