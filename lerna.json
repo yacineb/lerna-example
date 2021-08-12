@@ -1,7 +1,8 @@
 {
   "packages": ["packages/*"],
-  "version": "0.0.1",
-  "npmClient": "npm",
+  "npmClient": "yarn",
+  "version": "independent",
+  "workspaces": true,
   "changelogPreset": {
     "name": "angular",
     "issueUrlFormat": "https://app.clubhouse.io/curbee/story/{{id}}",
