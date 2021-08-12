@@ -2,13 +2,18 @@
   "packages": ["packages/*"],
   "version": "0.0.1",
   "npmClient": "npm",
+  "changelogPreset": {
+    "name": "conventionalcommits",
+    "issueUrlFormat": "https://app.clubhouse.io/curbee/story/{{id}}",
+    "issuePrefixes": ["CH"]
+  },
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
-      "message": "chore(release): publish"
+      "conventionalCommits": true
     },
-    "bootstrap": {
-      "npmClientArgs": ["--no-package-lock"]
+    "version": {
+      "message": "chore(release): release"
     }
   }
 }
