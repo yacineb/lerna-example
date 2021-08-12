@@ -1,6 +1,6 @@
 {
   "name": "project-b",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "project-a": "^0.0.1"
+    "project-a": "^0.0.2"
   }
 }
