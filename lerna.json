@@ -4,7 +4,7 @@
   "version": "independent",
   "workspaces": true,
   "changelogPreset": {
-    "name": "angular",
+    "name": "conventionalcommits",
     "issueUrlFormat": "https://app.clubhouse.io/curbee/story/{{id}}"
   },
   "command": {

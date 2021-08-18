@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yacineb/lerna-example.git"
+    "url": "git+https://github.com/oqx/lerna-example.git"
   },
   "keywords": [
     "lerna",
@@ -17,9 +17,9 @@
   "author": "Yacine Bouraoui <ybsoft55@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yacineb/lerna-example/issues"
+    "url": "https://github.com/oqx/lerna-example/issues"
   },
-  "homepage": "https://github.com/yacineb/lerna-example#readme",
+  "homepage": "https://github.com/oqx/lerna-example#readme",
   "devDependencies": {
     "lerna": "^3.13.1"
   },
