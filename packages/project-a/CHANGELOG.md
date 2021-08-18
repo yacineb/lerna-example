@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.0](https://github.com/oqx/lerna-example/compare/project-a@0.1.0...project-a@0.2.0) (2021-08-18)
+
+
+### Features
+
+* **projectA:** megazord added ([b476b5d](https://github.com/oqx/lerna-example/commit/b476b5d6f9e145c46b170a3bd88ab5a90093a0d7))
+
+
+
 # [0.1.0](https://github.com/oqx/lerna-example/compare/project-a@0.0.2...project-a@0.1.0) (2021-08-12)
 
 
