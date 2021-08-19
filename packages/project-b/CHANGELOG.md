@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.0](https://github.com/oqx/lerna-example/compare/project-b@0.1.4...project-b@0.2.0) (2021-08-19)
+
+
+### Features
+
+* ding zing wing ([93e7074](https://github.com/oqx/lerna-example/commit/93e70747ded3d8302ae07f2cd264fb7ca708e149)), closes [CH4995](https://app.clubhouse.io/curbee/story/4995)
+
+
+
 ### [0.1.4](https://github.com/oqx/lerna-example/compare/project-b@0.1.3...project-b@0.1.4) (2021-08-19)
 
 **Note:** Version bump only for package project-b
