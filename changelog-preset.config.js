@@ -61,6 +61,7 @@ module.exports =  Promise.resolve()
 .then((preset) => {
     preset.writerOpts.issuePrefixes = ["ch", "CH"]
     preset.writerOpts.issueUrlFormat = "https://app.clubhouse.io/curbee/story/{{id}}"
-    if (!preset.writerOpts._wrapped) preset.writerOpts.headerPartial = header
+    preset.writerOpts.headerPartial = header
+    console.log(preset)
     return preset
 })
