@@ -40,7 +40,6 @@ module.exports = config({
     issuePrefixes: ["ch", "CH"],
 })
 .then(preset => {
-    console.log('PRESET', preset)
-    preset.writerOpts.commitPartial = commitPartial
+    conventionalChangelog.writerOpts.commitPartial = commitPartial
     return preset
 })
