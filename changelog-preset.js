@@ -59,8 +59,8 @@ const header = `
 module.exports =  Promise.resolve()
 .then(() => require('conventional-changelog-conventionalcommits'))
 .then((preset) => {
-    preset.issuePrefixes = ["ch", "CH"]
+    preset.writerOpts.issuePrefixes = ["ch", "CH"]
+    preset.writerOpts.issueUrlFormat = "https://app.clubhouse.io/curbee/story/{{id}}"
     if (!preset.writerOpts._wrapped) preset.writerOpts.headerPartial = header
-    preset.issueUrlFormat = "https://app.clubhouse.io/curbee/story/{{id}}"
     return preset
 })
