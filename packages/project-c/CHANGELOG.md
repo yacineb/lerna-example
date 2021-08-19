@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.0.14](https://github.com/oqx/lerna-example/compare/project-c@0.0.13...project-c@0.0.14) (2021-08-19)
+
+
+### Bug Fixes
+
+* **template:** updated commit template ([8dc78a1](https://github.com/oqx/lerna-example/commit/8dc78a191b9f504995a78aa719e5b30fcb00a276))  hello world
+
+[ch4996]
+
+
+
 ### [0.0.13](https://github.com/oqx/lerna-example/compare/project-c@0.0.12...project-c@0.0.13) (2021-08-19)
 
 **Note:** Version bump only for package project-c
