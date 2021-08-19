@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+/home/runner/work/lerna-example/lerna-example/header.hbs
+
+### Features
+
+* custom changelog ([6bf3243](https://github.com/oqx/lerna-example/commit/6bf32432e46644df768d880b83d462c83175ff6d))
+* custom changelog ([1ed502e](https://github.com/oqx/lerna-example/commit/1ed502e403537104ecfa7aee7f05cfd052e9fbb9))
+
+
+
+
+
 ## [0.5.0](https://github.com/oqx/lerna-example/compare/project-a@0.4.0...project-a@0.5.0) (2021-08-19)
 
 
