@@ -3,7 +3,6 @@ const { resolve } = require('path')
 
 module.exports =  Promise.resolve()
 .then(() => require('conventional-changelog-angular'))
-.then(presetPromise => presetPromise())
 .then(preset => {
     preset.issuePrefixes = ["ch", "CH"]
     preset.writerOpts.headerPartial = resolve("./header.hbs")
