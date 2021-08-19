@@ -1,11 +1,5 @@
-const config = require('conventional-changelog-conventionalcommits');
-const { resolve } = require('path')
-
-module.exports =  Promise.resolve()
-.then(() => require('conventional-changelog-angular'))
-.then(preset => {
-    preset.issuePrefixes = ["ch", "CH"]
-    preset.writerOpts.headerPartial = `* {{header}}
+const header = `
+* {{header}}
     * {{body}}
 
 {{~!-- commit link --}} {{#if @root.linkReferences~}}
@@ -60,7 +54,13 @@ module.exports =  Promise.resolve()
     {{~/if}}
     {{~this.repository}}#{{this.issue}}
   {{~/if}}{{/each}}
-{{~/if}}`
+{{~/if}}
+`
+module.exports =  Promise.resolve()
+.then(() => require('conventional-changelog-conventionalcommits'))
+.then((preset) => {
+    preset.issuePrefixes = ["ch", "CH"]
+    if (!preset.writerOpts._wrapped) preset.writerOpts.headerPartial = header
     preset.issueUrlFormat = "https://app.clubhouse.io/curbee/story/{{id}}"
     return preset
 })

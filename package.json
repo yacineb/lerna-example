@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/oqx/lerna-example#readme",
   "devDependencies": {
+    "conventional-changelog-angular": "^5.0.12",
     "conventional-changelog-conventionalcommits": "^4.6.0",
     "lerna": "^3.13.1"
   },
