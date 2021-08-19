@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.0](https://github.com/oqx/lerna-example/compare/project-a@0.7.1...project-a@0.8.0) (2021-08-19)
+
+
+### Features
+
+* add great feat ([73c2322](https://github.com/oqx/lerna-example/commit/73c232249e16d8d034eb744a940b5877ed20d92b))added some good shit
+
+[ch4897]
+
+
+
 ### [0.7.1](https://github.com/oqx/lerna-example/compare/project-a@0.7.0...project-a@0.7.1) (2021-08-19)
 
 
