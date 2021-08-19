@@ -3,12 +3,7 @@
   "npmClient": "yarn",
   "version": "independent",
   "workspaces": true,
-  "changelogPreset": {
-    "name": "conventionalcommits",
-    "headerPartial": "./header.hbs",
-    "issuePrefixes": ["ch", "CH"],
-    "issueUrlFormat": "https://app.clubhouse.io/curbee/story/{{id}}"
-  },
+  "changelogPreset": "./changelog-preset.js",
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
