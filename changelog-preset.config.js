@@ -36,11 +36,11 @@ const commitPartial = `
 {{~/if}}
 `
 
-module.exports = Promise.resolve()
-.then(() => config({
+module.exports = config({
     issuePrefixes: ["ch", "CH"],
-}))
+})
 .then(preset => {
+    console.log('PRESET', preset)
     preset.writerOpts.commitPartial = commitPartial
     return preset
 })
