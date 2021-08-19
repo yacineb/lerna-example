@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+* 
+    *  ([](https://github.com/oqx/lerna-example/commit/))
+
+### Features
+
+* add sploot ([f68bbb5](https://github.com/oqx/lerna-example/commit/f68bbb522f613fecdff14f7f506fcec608887f92))
+
+
+
+
+
 /home/runner/work/lerna-example/lerna-example/header.hbs
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+* 
+    *  ([](https://github.com/oqx/lerna-example/commit/))
+
+
+
+
 /home/runner/work/lerna-example/lerna-example/header.hbs
 
 **Note:** Version bump only for package project-c
