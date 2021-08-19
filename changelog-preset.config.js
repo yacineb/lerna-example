@@ -1,6 +1,6 @@
 const config = require('conventional-changelog-conventionalcommits')
 
-const commit = `
+const commitPartial = `
 *{{#if scope}} **{{scope}}:**
 {{~/if}} {{#if subject}}
   {{~subject}}
@@ -22,7 +22,7 @@ const commit = `
     {{~#if this.owner}}
       {{~this.owner}}/
     {{~/if}}
-    {{~this.repository}}{{this.prefix}}{{this.issue}}]({{issueUrlFormat}})
+    {{~this.repository}}{{this.prefix}}{{this.issue}}](https://app.clubhouse.io/curbee/story/{{id}})
   {{~else}}
     {{~#if this.owner}}
       {{~this.owner}}/
@@ -35,8 +35,12 @@ const commit = `
   {{body}}
 {{~/if}}
 `
-module.exports = config({
-  issuePrefixes: ["ch", "CH"],
-  issueUrlFormat: "https://app.clubhouse.io/curbee/story/{{id}}",
-  commitPartial: commit
+
+module.exports = Promise.resolve()
+.then(() => config({
+    issuePrefixes: ["ch", "CH"],
+}))
+.then(preset => {
+    preset.writerOpts.commitPartial = commitPartial
+    return preset
 })
