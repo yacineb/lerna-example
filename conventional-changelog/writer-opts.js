@@ -190,15 +190,14 @@ function defaultConfig (config) {
     { type: 'build', section: 'Build System', hidden: true },
     { type: 'ci', section: 'Continuous Integration', hidden: true }
   ]
-  config.issueUrlFormat = config.issueUrlFormat ||
-  'https://app.clubhouse.io/curbee/story/{{id}}'
+  config.issueUrlFormat = 'https://app.clubhouse.io/curbee/story/{{id}}'
   config.commitUrlFormat = config.commitUrlFormat ||
     '{{host}}/{{owner}}/{{repository}}/commit/{{hash}}'
   config.compareUrlFormat = config.compareUrlFormat ||
     '{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}'
   config.userUrlFormat = config.userUrlFormat ||
     '{{host}}/{{user}}'
-  config.issuePrefixes = config.issuePrefixes || ["ch", "CH"]
+  config.issuePrefixes = ["ch", "CH"]
 
   return config
 }
