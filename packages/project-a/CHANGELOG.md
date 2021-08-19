@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.8.1](https://github.com/oqx/lerna-example/compare/project-a@0.8.0...project-a@0.8.1) (2021-08-19)
+
+
+### Bug Fixes
+
+* new fix ([675b4e0](https://github.com/oqx/lerna-example/commit/675b4e05ac854d7827cebcc43c3280c6e7e67dcd))<br />
+  this was a really small fix in order to test conventional changelog. Did it work?
+
+[ch4555]
+
+
+
 ## [0.8.0](https://github.com/oqx/lerna-example/compare/project-a@0.7.1...project-a@0.8.0) (2021-08-19)
 
 
