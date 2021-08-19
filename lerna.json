@@ -6,7 +6,7 @@
   "command": {
     "version": {
       "message": "chore(release): release",
-      "changelogPreset": "./changelog-preset.config.js"
+      "changelogPreset": "./conventional-changelog/index.js"
     },
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],

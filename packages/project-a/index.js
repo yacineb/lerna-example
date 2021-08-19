@@ -2,7 +2,7 @@
 
 const _ = require('lodash');
 module.exports = function removeDupl(data) {
-    console.log('ohdude')
+    console.log('shit')
     return _.uniqBy(data, function (e) {
         return e;
       });
