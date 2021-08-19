@@ -197,7 +197,7 @@ function defaultConfig (config) {
     '{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}'
   config.userUrlFormat = config.userUrlFormat ||
     '{{host}}/{{user}}'
-  config.issuePrefixes = ["ch", "CH"]
+  config.issuePrefixes = config.issuePrefixes | ["ch", "CH"]
 
   return config
 }
