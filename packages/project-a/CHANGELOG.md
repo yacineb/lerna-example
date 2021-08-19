@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.0](https://github.com/oqx/lerna-example/compare/project-a@0.4.0...project-a@0.5.0) (2021-08-19)
+
+
+### Features
+
+* added oof ([1816523](https://github.com/oqx/lerna-example/commit/181652318b533134c665326121ee5fea10de03b3)), closes [CH4762](https://app.clubhouse.io/curbee/story/4762)
+
+
+
 ## [0.4.0](https://github.com/oqx/lerna-example/compare/project-a@0.3.0...project-a@0.4.0) (2021-08-19)
 
 
