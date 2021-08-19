@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.7.1](https://github.com/oqx/lerna-example/compare/project-a@0.7.0...project-a@0.7.1) (2021-08-19)
+
+
+### Bug Fixes
+
+* doood ([fab7a22](https://github.com/oqx/lerna-example/commit/fab7a225321c7a039a8115e5984b37a3e40e540a)), closes [ch4897](https://app.clubhouse.io/curbee/story/4897)
+* ohdude ([015c858](https://github.com/oqx/lerna-example/commit/015c858fd8ebcbd500a2c6e123433fcc96a48f72)), closes [ch4995](https://app.clubhouse.io/curbee/story/4995)
+
+
+
 * 
     *  ([](https://github.com/oqx/lerna-example/commit/))
 
