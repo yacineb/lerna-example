@@ -5,6 +5,9 @@
   "workspaces": true,
   "changelogPreset": {
     "name": "conventionalcommits",
+    "writerOpts": {
+      "headerPartial": "./header.hbs"
+    },
     "issuePrefixes": ["ch", "CH"],
     "issueUrlFormat": "https://app.clubhouse.io/curbee/story/{{id}}"
   },
