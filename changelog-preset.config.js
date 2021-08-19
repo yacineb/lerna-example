@@ -1,5 +1,8 @@
+const config = require('conventional-changelog-conventionalcommits')
+
 const header = `
 * {{header}}
+    * {{body}}
 
 {{~!-- commit link --}} {{#if @root.linkReferences~}}
   ([{{hash}}](
@@ -55,12 +58,8 @@ const header = `
   {{~/if}}{{/each}}
 {{~/if}}
 `
-module.exports =  Promise.resolve()
-.then(() => require('conventional-changelog-conventionalcommits'))
-.then((preset) => {
-    preset.writerOpts.issuePrefixes = ["ch", "CH"]
-    preset.writerOpts.issueUrlFormat = "https://app.clubhouse.io/curbee/story/{{id}}"
-    preset.writerOpts.headerPartial = header
-    console.log(preset)
-    return preset
+module.exports =  config({
+  issuePrefixes: ["ch", "CH"],
+  issueUrlFormat: "https://app.clubhouse.io/curbee/story/{{id}}",
+  headerPartial: header
 })
