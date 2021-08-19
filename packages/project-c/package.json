@@ -1,6 +1,6 @@
 {
   "name": "project-c",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -8,7 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.11",
-    "project-a": "^0.3.0",
-    "project-b": "^0.1.2"
+    "project-a": "^0.4.0",
+    "project-b": "^0.1.3"
   }
 }
