@@ -3,14 +3,14 @@
   "npmClient": "yarn",
   "version": "independent",
   "workspaces": true,
-  "changelogPreset": "./changelog-preset.js",
   "command": {
+    "version": {
+      "message": "chore(release): release",
+      "changelogPreset": "./changelog-preset.config.js"
+    },
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "conventionalCommits": true
-    },
-    "version": {
-      "message": "chore(release): release"
     }
   }
 }
