@@ -1,6 +1,5 @@
 const header = `
 * {{header}}
-    * {{body}}
 
 {{~!-- commit link --}} {{#if @root.linkReferences~}}
   ([{{hash}}](
