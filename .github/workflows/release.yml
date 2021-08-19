@@ -28,4 +28,4 @@ jobs:
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx lerna version --yes --conventional-commits --changelog-preset ./conventional-changelog/index.js --create-release github
+        run: npx lerna version --yes --conventional-commits --changelog-preset ./changelog-preset.config.js --create-release github
